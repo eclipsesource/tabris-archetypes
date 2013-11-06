@@ -20,7 +20,7 @@ public class Configuration implements ApplicationConfiguration {
     TabrisClientInstaller.install( application );
     
     // Add a Tabris UI application
-    application.addEntryPoint( "/helloworld", new TabrisUIEntrypointFactory( createUIConfiguration() ), null );
+    application.addEntryPoint( "/app", new TabrisUIEntrypointFactory( createUIConfiguration() ), null );
   }
 
   private UIConfiguration createUIConfiguration() {
