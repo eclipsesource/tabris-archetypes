@@ -40,7 +40,7 @@ public class Page extends AbstractPage {
     
     // Create image label
     Label imageLabel = new Label( parent, SWT.NONE );
-    onWidget( imageLabel ).showLocalTouch();
+    onWidget( imageLabel ).showLocalTouch( true );
     imageLabel.setLayoutData( new GridData( SWT.CENTER, SWT.CENTER, true, true ) );
     imageLabel.setImage( new Image( parent.getDisplay(), Page.class.getResourceAsStream( "/tabris.png" ) ) );
     
