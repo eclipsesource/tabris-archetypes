@@ -28,7 +28,7 @@
 
   <scm>
     <url>https://github.com/eclipsesource/tabris-archetypes.git</url>
-    <connection>scm:git:https://github.com/eclipsesource/tabris-archetypes.git</connection>
+    <connection>scm:git:git@github.com:eclipsesource/tabris-archetypes.git</connection>
     <tag>HEAD</tag>
   </scm>
 
